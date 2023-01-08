@@ -1,0 +1,6 @@
+= Title
+== Section
+Now a list:
+* [x] Value 1
+** [ ] Value 2
+** [x] Value 3
