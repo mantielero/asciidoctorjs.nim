@@ -1,9 +1,9 @@
 # nim js -r -d:nodejs -d:release ex01_string_conversion
 import std/[jsffi]
-import asciidoctor
+import asciidoctorjs
 
 
-var adoc = Asciidoctor()
+var adoc = Asciidoctorjs()
 echo "----- not standalone example -----"
 echo adoc.convert("Hello, _Asciidoctor_")
 echo "----------------------------------\n\n"

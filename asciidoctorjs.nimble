@@ -1,4 +1,4 @@
-version       = "0.0.1"
+version       = "0.0.2"
 author        = "Jose Maria Garcia"
 description   = "Bindings for asciidoctor.js; Asciidoctor.js brings AsciiDoc to the JavaScript world!."
 license       = "MIT"

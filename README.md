@@ -16,9 +16,9 @@ nimble install https://github.com/mantielero/asciidoctorjs.nim
 Create a file:
 ```nim title="example.nim"
 import std/[jsffi]
-import asciidoctor
+import asciidoctorjs
 
-var adoc = Asciidoctor()
+var adoc = Asciidoctorjs()
 echo adoc.convert("Hello, _Asciidoctor_")
 ```
 and compile and execute it:
