@@ -1,4 +1,5 @@
 = Title
+:toc:
 == Section
 Now a list:
 * [x] Value 1
