@@ -23,5 +23,11 @@ echo adoc.convert("Hello, _Asciidoctor_")
 ```
 and compile and execute it:
 ```sh
-$ nim js -r -d:nodejs -d:release example
+nim js -r -d:nodejs -d:release example
+```
+and you will get:
+```html
+<div class="paragraph">
+<p>Hello, <em>Asciidoctor</em></p>
+</div>
 ```
